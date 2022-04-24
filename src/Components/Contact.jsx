@@ -7,7 +7,7 @@ function Contact(props) {
     <h1 className="w3-xxxlarge w3-text-red w3-center"><b>Contact</b></h1>
     <p className="w3-text-grey w3-large w3-center">Please contact us to find out how we can help your business and brand. Fill out the form and fill me in with the details. We love meeting new people:)</p>
     <div className="container w-50 p-2 rounded-3" style={{border: "2px solid white"}}>
-    <form method="POST" action="mailto:sarkaraagencyservices@gmail.com">
+    <form name="contact" netlify>
     <div className="mb-3">
         <label htmlFor="studentName" className="form-label">Name</label>
         <input type="text" className="form-control" id="name" required/>
