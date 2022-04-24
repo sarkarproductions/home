@@ -16,7 +16,7 @@ function NavBar(props) {
     <div className="w3-top">
   <div className="w3-bar w3-red w3-card w3-left-align w3-large">
     <a className="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href={void(0)} onClick={myFunction} title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
-    <a href="#" className="w3-bar-item w3-button w3-padding-large w3-white">{props.heading}</a>
+    <a href="/home" className="w3-bar-item w3-button w3-padding-large w3-white">{props.heading}</a>
     {/* <!--<a href="#showcase" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Showcases</a>--> */}
     <a href="#services" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg1}</a>
     <a href="#about" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg2}</a>
