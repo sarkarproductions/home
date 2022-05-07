@@ -3,7 +3,7 @@ import React from 'react'
 function Services(props) {
   return (
     <>
-    <div className="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="services">
+    <div className="w3-row-padding w3-light-grey w3-padding-64 w3-container w3-animate-left" id="services">
   <div className="w3-content">
     <div className="w3-third w3-center">
       <i className="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>

@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-    <div className="w3-row-padding w3-padding-64 w3-container" id ="about">
+    <div className="w3-row-padding w3-padding-64 w3-container w3-animate-right" id ="about">
   <div className="w3-content">
     <div className="w3-twothird">
       <h1 className="w3-xxxlarge w3-text-red"><b>About</b></h1>
