@@ -23,7 +23,7 @@ function Contact(props) {
 
     const submitHandler = (e) =>{
         e.preventDefault();
-        axios.post("http://localhost:8000/api/formsubmission",{
+        axios.post("https://api-sarkaragency.herokuapp.com/api/formsubmission",{
             "name" : data.name,
             "contact" : data.contact,
             "email": data.email,
