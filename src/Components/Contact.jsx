@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router';
 
 function Contact(props) {
@@ -33,7 +34,7 @@ function Contact(props) {
             "describe": data.describe,
             "message": data.message
         }).then((res)=>{
-            console.log(res.data);
+            toast.success("Successful!")
             navigate("/success", {state: res.data});
         })
         // props.showAlert("Registration Successful!","success");

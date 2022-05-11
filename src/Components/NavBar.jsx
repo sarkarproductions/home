@@ -22,15 +22,17 @@ function NavBar(props) {
     <Link to="/services" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg1}</Link>
     <Link to="/about" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg2}</Link>
     <Link to="/contact" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg3}</Link>
+    <Link style={{float:"right"}} to="/admin" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">{props.arg4}</Link>
     <a style={{float:"right"}} className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" href="https://www.instagram.com/sarkaragency/"><i className="fa fa-instagram w3-hover-opacity"></i></a>
     <a style={{float:"right"}} className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" href="http://wa.me/+918178257075"><i className="fa fa-whatsapp" aria-hidden="true"></i></a>
   </div>
   {/* <div class="w3-xlarge w3-padding-32" style={{float:"right"}}></div> */}
   <div id="navDemo" className={display}>
     {/* <!--<a href="#showcase" className="w3-bar-item w3-button w3-padding-large">Showcases</a>--> */}
-    <Link to="/services" className="w3-bar-item w3-button w3-padding-large">Services</Link>
-    <Link to="/about" className="w3-bar-item w3-button w3-padding-large">About</Link>
-    <Link to="/contact" className="w3-bar-item w3-button w3-padding-large">Contact us</Link>
+    <Link to="/services" className="w3-bar-item w3-button w3-padding-large">{props.arg1}</Link>
+    <Link to="/about" className="w3-bar-item w3-button w3-padding-large">{props.arg2}</Link>
+    <Link to="/contact" className="w3-bar-item w3-button w3-padding-large">{props.arg3}</Link>
+    <Link to="/admin" className="w3-bar-item w3-button w3-padding-large">{props.arg4}</Link>
     <a style={{float:"right"}} className="w3-bar-item w3-button w3-padding-large" href="https://www.instagram.com/sarkaragency/">Instagram <i className="fa fa-instagram w3-hover-opacity"></i></a>
     <a style={{float:"right"}} className="w3-bar-item w3-button w3-padding-large" href="http://wa.me/+918178257075">WhatsApp <i className="fa fa-whatsapp" aria-hidden="true"></i></a>
   </div>

@@ -1,11 +1,15 @@
 import React from 'react'
 import { useLocation } from 'react-router'
+import toast, { Toaster } from "react-hot-toast";
 
 const FormSubmission = (props) => {
     const location = useLocation();
     console.log(location.state);
   return (
     <>
+    <div>
+        <Toaster position="top-center" reverseOrder={false} />
+    </div>
     <div className="w3-row-padding w3-light-grey w3-padding-64 w3-container-md full w3-animate-bottom" id="contact" >
     <div className="w3-container-md" style={{marginTop:"10%"}}>
         {/* <h1 className="w3-xxxlarge w3-text-red w3-center"><b>Contact</b></h1> */}
