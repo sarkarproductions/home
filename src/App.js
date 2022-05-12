@@ -25,7 +25,7 @@ function App() {
     arg4="Admin"
     />
     <Routes>
-    <Route exact path='/' element={<LandingPage title="SR Productions" slogan="A Broadcasting and Production House"/>}/>
+    <Route exact path='/' element={<LandingPage title="Sarkar Agency" slogan="A Broadcasting and Production House"/>}/>
     <Route exact path='/services' element={<Services/>}/>
     <Route exact path='/about' element={<About/>}/>
     <Route exact path='/contact' element={<Contact/>}/>
