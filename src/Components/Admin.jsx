@@ -59,11 +59,11 @@ const handle = (e) =>{
         <form method='POST' onSubmit={(e)=>{login(e)}} >
     <div className="mb-3">
         <label htmlFor="email" className="form-label text-success">Email</label>
-        <input type="email" onChange={(e) => handle(e)} value={data.email} className="form-control" id="email" aria-describedby="emailHelp" name="email"/>
+        <input type="email" onChange={(e) => handle(e)} value={data.email} className="form-control" id="email" aria-describedby="emailHelp" name="email" required/>
     </div>
     <div className="mb-3">
         <label htmlFor="password" className="form-label text-success">Password</label>
-        <input type="password" onChange={(e) => handle(e)} value={data.password} className="form-control" id="password" name="password"/>
+        <input type="password" onChange={(e) => handle(e)} value={data.password} className="form-control" id="password" name="password" required/>
     </div>
     <center><button type="submit" className="btn btn-danger">Login</button></center>
     </form>
